@@ -3,14 +3,7 @@ import Slider from "react-slick";
 
 function Art(){
 
-    function nextSlider(){
-        customeSlider.current.slickNext()
-    }
-    function prevSlider(){
-
-    }
-
-    const customeSlider = useRef();
+    const customeArtSlider = useRef();
 
     var artOnebackStyle = {
         backgroundImage: `url("/assets/images/art1.png")`,
@@ -62,10 +55,10 @@ function Art(){
     };
 
     function nextSlider(){
-        customeSlider.current.slickNext()
+        customeArtSlider.current.slickNext()
     }
     function prevSlider(){
-        customeSlider.current.slickPrev()
+        customeArtSlider.current.slickPrev()
     }
 
     return(
@@ -74,13 +67,13 @@ function Art(){
                 <div className="headings">
                     <h2 className="mainSectionHeading">Hobbies</h2>
                     <h2 className="subSectionHeading">Digital Art!</h2>
-                    <div className="buttonControls">
-                        <button className="sliderControlBut" onClick={()=>{prevSlider()}}><i class="fas fa-chevron-circle-left"></i></button>
-                        <button className="sliderControlBut" onClick={()=>{nextSlider()}}><i class="fas fa-chevron-circle-right"></i></button>
-                    </div>
+                    {/* <div className="buttonControls">
+                        <button className="sliderControlBut" onClick={()=>{prevSlider()}}><i className="fas fa-chevron-circle-left"></i></button>
+                        <button className="sliderControlBut" onClick={()=>{nextSlider()}}><i className="fas fa-chevron-circle-right"></i></button>
+                    </div> */}
                 </div>
                 <div className="slider">
-                    <Slider {...settings} ref={customeSlider}>
+                    <Slider {...settings} ref={customeArtSlider}>
                         <div data-aos="flip-right" data-aos-delay="110" data-aos-duration="800">
                             <div className="singleart" style={artOnebackStyle}>
                             </div>
