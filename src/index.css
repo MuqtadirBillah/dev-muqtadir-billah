@@ -201,6 +201,7 @@ body .technologies .content .swipe {
 body .education {
   padding-top: 50px;
   padding-bottom: 50px;
+  padding: 50px 10px;
   border-bottom: 3px solid #14b0e5;
 }
 body .education .headings {
@@ -220,6 +221,7 @@ body .education .singleEdu i {
 body .experience {
   padding-top: 50px;
   padding-bottom: 50px;
+  padding: 50px 10px;
   border-bottom: 3px solid #14b0e5;
 }
 body .experience .headings {
