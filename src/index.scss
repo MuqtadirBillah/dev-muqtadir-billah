@@ -158,6 +158,44 @@ body{
             }
         }
     }
+    .education{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        border-bottom: 3px solid $main-color;
+        .headings{
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .singleEdu{
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.306);
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            i{
+                color: $main-color;
+            }
+        }
+    }
+    .experience{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        border-bottom: 3px solid $main-color;
+        .headings{
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .singleEdu{
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.306);
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            i{
+                color: $main-color;
+            }
+        }
+    }
     .work{
         padding: 30px;
         padding-top: 50px;

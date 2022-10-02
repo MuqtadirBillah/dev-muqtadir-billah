@@ -159,6 +159,44 @@ body .technologies .content .swipe {
   color: white;
   font-size: large;
 }
+body .education {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 3px solid #14b0e5;
+}
+body .education .headings {
+  text-align: center;
+  margin-bottom: 50px;
+}
+body .education .singleEdu {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.306);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+body .education .singleEdu i {
+  color: #14b0e5;
+}
+body .experience {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 3px solid #14b0e5;
+}
+body .experience .headings {
+  text-align: center;
+  margin-bottom: 50px;
+}
+body .experience .singleEdu {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.306);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+body .experience .singleEdu i {
+  color: #14b0e5;
+}
 body .work {
   padding: 30px;
   padding-top: 50px;

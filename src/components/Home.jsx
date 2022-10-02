@@ -2,6 +2,8 @@ import React from "react";
 import Art from "./Art";
 import Articles from "./Articles";
 import ContactSection from "./ContactSection";
+import Education from "./Education";
+import Experience from "./Experience";
 import Footer from "./Footer";
 import HomeHero from "./HomeHero";
 import Navigation from "./Navigation";
@@ -16,6 +18,8 @@ function Home(){
                 <Navigation />
                 <HomeHero />
                 <Technologies />
+                <Education />
+                <Experience />
                 <Work />
                 {/* <TestimonialsUpdated /> */}
                 <Articles />
