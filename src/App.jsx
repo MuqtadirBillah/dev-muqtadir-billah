@@ -1,10 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import AOS from "aos";
+import ReactGA from "react-ga4";
 import { ToastContainer, toast } from 'react-toastify';
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from './components/Home';
 
 function App() {
+  
+  ReactGA.initialize("G-XQDJ1XKSEJ");
+  ReactGA.send("pageview");
+
   return (
     <div className="">
       <ToastContainer
