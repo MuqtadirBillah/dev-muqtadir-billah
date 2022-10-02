@@ -43,12 +43,14 @@ function Work(){
         backgroundRepeat: 'no-repeat'
     }
     var workOnebackStyle7 = {
-        backgroundImage: `url("/assets/images/work7.jpg")`,
+        // backgroundImage: `url("/assets/images/work7.jpg")`,
+        backgroundImage: `url("https://i.postimg.cc/dVsJbqs0/work7.jpg")`,
         backgroundSize: '100% 100%',
         backgroundRepeat: 'no-repeat'
     }
     var workOnebackStyle8 = {
-        backgroundImage: `url("/assets/images/work8.jpg")`,
+        // backgroundImage: `url("/assets/images/work8.jpg")`,
+        backgroundImage: `url("https://i.postimg.cc/WzmPyyxr/work8.jpg")`,
         backgroundSize: '100% 100%',
         backgroundRepeat: 'no-repeat'
     }
