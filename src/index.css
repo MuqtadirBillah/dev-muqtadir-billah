@@ -132,6 +132,44 @@ body .homeHero .imgCol {
 body .homeHero .imgCol img {
   width: 100%;
 }
+body .homeHero .sendMailBut {
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid #14b0e5;
+  padding: 5px 10px;
+  color: #14b0e5;
+  margin-right: 5px;
+  font-family: "Montserrat", sans-serif;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+}
+body .homeHero .sendMailBut:hover {
+  color: white;
+  background-color: #14b0e5;
+  transform: scale(1.1);
+}
+body .homeHero .resumeBut {
+  background-color: rgb(255, 32, 32);
+  border: 2px solid rgb(255, 32, 32);
+  padding: 5px 10px;
+  color: white;
+  margin-right: 5px;
+  font-family: "Montserrat", sans-serif;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+}
+body .homeHero .resumeBut:hover {
+  color: white;
+  background-color: rgb(255, 0, 0);
+  transform: scale(1.1);
+}
 body .technologies {
   padding-top: 50px;
   padding-bottom: 30px;
