@@ -67,10 +67,10 @@ function Art(){
                 <div className="headings">
                     <h2 className="mainSectionHeading">Hobbies</h2>
                     <h2 className="subSectionHeading">Digital Art!</h2>
-                    {/* <div className="buttonControls">
+                    <div className="buttonControls">
                         <button className="sliderControlBut" onClick={()=>{prevSlider()}}><i className="fas fa-chevron-circle-left"></i></button>
                         <button className="sliderControlBut" onClick={()=>{nextSlider()}}><i className="fas fa-chevron-circle-right"></i></button>
-                    </div> */}
+                    </div>
                 </div>
                 <div className="slider">
                     <Slider {...settings} ref={customeArtSlider}>
