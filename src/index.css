@@ -136,7 +136,7 @@ body .homeHero .sendMailBut {
   background-color: #14b0e5;
   border: 2px solid #14b0e5;
   padding: 5px 10px;
-  color: #14b0e5;
+  color: white;
   margin-right: 5px;
   font-family: "Montserrat", sans-serif;
   -webkit-transition: all 0.5s ease-out;
@@ -149,6 +149,7 @@ body .homeHero .sendMailBut {
 body .homeHero .sendMailBut:hover {
   color: white;
   background-color: #0c6a89;
+  border: 2px solid #0c6a89;
   transform: scale(1.1);
 }
 body .homeHero .resumeBut {

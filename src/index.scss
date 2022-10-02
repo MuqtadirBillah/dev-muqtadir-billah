@@ -138,6 +138,7 @@ body{
             &:hover{
                 color: white;
                 background-color: $main-color-dark;
+                border: 2px solid $main-color-dark;
                 transform: scale(1.1);
             }
         }
@@ -2899,4 +2900,4 @@ body{
                 } 
             
 
-// Animations       
+// Animations 
